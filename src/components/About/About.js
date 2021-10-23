@@ -3,7 +3,7 @@ import logo from "../../logo.svg";
 
 const About = () => {
   return (
-    <div>
+    <div className="about">
       <h2 className="heading">About</h2>
       <div>
         <p>Welcome to our about page</p>

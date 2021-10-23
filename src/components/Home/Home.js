@@ -2,17 +2,15 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <h2>Home</h2>
       <p>
-        Today we will be learning about the different styling techniques in
-        react
+        Today we will be learning about styling React using SASS
       </p>
       <ul>
-        <li>CSS stylesheets</li>
-        <li>Inline styles - for our home page</li>
-        <li>CSS-in-JS</li>
-        <li>CSS modules</li>
+        <li>Various @rules</li>
+        <li>BEM convention</li>
+        <li>Atomic design</li>
       </ul>
     </div>
   );
