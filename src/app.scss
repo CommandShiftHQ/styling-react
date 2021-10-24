@@ -1,0 +1,16 @@
+@import "../src/scss/settings.scss";
+@import "../src/scss/headers.scss";
+
+.app-header {
+  text-align: center;
+}
+
+a {
+  color: $color-red;
+  text-decoration: none;
+  list-style: none;
+}
+
+a:visited {
+  color: $color-green;
+}

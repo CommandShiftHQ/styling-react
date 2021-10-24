@@ -5,7 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import ContactUs from "./components/Contact/ContactUs";
 
-import "./app.css";
+import "./app.scss";
 
 function App() {
   return (
