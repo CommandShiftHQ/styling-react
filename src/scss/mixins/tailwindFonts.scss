@@ -1,0 +1,16 @@
+@import "../settings.scss";
+
+// Programmatic font sizes eg text__bold--lg
+@mixin tailwindFonts($separator:'__', $modifier:'--') {
+  @each $name, $value in $fontWeights {
+    &#{$separator}#{$name} {
+      font-weight: $value;
+      @each $fontname, $fontvalue in $fontSizes {
+        &#{$modifier}#{$fontname} {
+          font-weight: $value;
+          font-size: $fontvalue;
+        }
+      }
+    }
+  }
+}
