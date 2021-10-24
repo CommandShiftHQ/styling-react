@@ -1,0 +1,20 @@
+@import "../../scss/settings.scss";
+
+.home {
+  border: 2px solid $color-black;
+  padding: $base-padding;
+  background-color: $color-blue;
+  &__list {
+    &-wrap {
+      list-style: square;
+    }
+    &-item {
+      font-style: italic;
+      padding-bottom: 0.5rem;
+      &--highlight {
+        @extend .home__list-item;
+        font-weight: bold;
+      }
+    }
+  }
+}

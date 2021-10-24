@@ -9,7 +9,7 @@ import "./app.scss";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <h1 className="app-header">Styling React (with SASS)</h1>
       <Router>
         <Navigation />
