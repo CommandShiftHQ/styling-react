@@ -1,5 +1,6 @@
 @import "../src/scss/settings.scss";
 @import "../src/scss/headers.scss";
+@import "../src/scss/mixins/fontWeights.scss";
 
 .app-header {
   text-align: center;
@@ -18,4 +19,8 @@ a:visited {
 .app {
   background-color: $color-off-white;
   padding: $base-padding;
+}
+
+.text-weight {
+  @include fontWeights();
 }

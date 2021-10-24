@@ -1,0 +1,9 @@
+@import "../settings.scss";
+
+@mixin fontWeights {
+  @each $name, $value in $fontWeights {
+    &--#{$name} {
+      font-weight: $value;
+    }
+  }
+}
