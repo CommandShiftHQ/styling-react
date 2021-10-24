@@ -1,7 +1,7 @@
-@import "../src/scss/settings.scss";
-@import "../src/scss/headers.scss";
-@import "../src/scss/mixins/fontWeights.scss";
-@import "../src/scss/mixins/tailwindFonts.scss";
+@import "./settings.scss";
+@import "./headers.scss";
+@import "./mixins/fontWeights.scss";
+@import "./mixins/tailwindFonts.scss";
 
 .app-header {
   text-align: center;
