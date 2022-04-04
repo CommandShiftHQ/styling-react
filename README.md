@@ -1,47 +1,73 @@
+# Styling React
+
 ## CSS stylesheets
 
-- Change the default colour for links
-- Change the default visited colour of links
-- add a "css reset" globally to remove padding and set the box-sizing for all elements to "border-box"
+In the `index.css`
 
-Extension
+- Change the default colour for all link elements
+- Use a pseudo class to change the default visited colour for all links
+- Create a "css reset" that will:
+  - set the default margin to 0 for all elements
+  - set the default padding to 0 for all elements
+  - and set the [box-sizing](https://www.w3schools.com/css/css3_box-sizing.asp) for all elements to "border-box"
 
-- Import a font from google fonts
-- Apply this font to your site globally (what existing file might this want to go in?)
+Extension:
+
+- Import a font from [google fonts](https://fonts.google.com/)
+- Apply this font to your site
+
+<br />
 
 ## Inline styling
 
-In the App.js
+In the `App.js`
 
-- In the App add an inline style to centre the title (h1)
+- Add an inline style to centre the title (h1)
 
 In the Home folder
 
-- Create a javascript file called HomeStyles
-- Within this file create an object called HomeStyles
-  - the keys you create should match the name of the element you'd like to style
-  - and the values should be style objects that use the same syntax for inline styles
-- import this file into Home.js
-- use object notation to add the inline styles from the imported file
+- Create a javascript file called `HomeStyles.js`
+- In this file create and export an object called HomeStyles
+  - the keys you create within the Homestyles object should match the name of the element you'd like to style in `Home.js`
+  - and the values should be style objects that use the same syntax for inline styles (take a look at the slides for reference)
+- import this file into `Home.js`
+- use object notation to add the inline styles from the imported file to the relevant elements
+
+<br />
 
 ## Styled components
 
-- Import styled components into your Navigation.js file
-- In the navigation component use styled components to
-  - style the container
-  - style each link in your nav differently
+- Install styled components: `npm i styled-components`
+- Import styled components into your Navigation.js file: `import styled from 'styled-components';`
+- In the navigation component [use styled components](https://styled-components.com/docs/basics#getting-started) to
+  - Style the container (i.e. `<ul>` element)
+  - Style each link in your nav differently (how you can [extend styles](https://styled-components.com/docs/basics#extending-styles) may prove useful here)
+
+<br />
 
 ## CSS Modules
 
-- create an about css module in the About folder
-- create some style declarations for the About component
-- import your styles into the About component
-- apply styling to relevant jsx elements
-- Extension: create a media query and/or css transition for the react logo
+Remember to use the lecture slides for reference
+
+- Create an about css module in the About folder
+- Create some style declarations for the About component
+- Import your styles into the About component
+- Apply styling to the relevant jsx elements for the styles you've created
+
+Extension:
+
+- Create a media query and/or css transition for the react logo
+
+<br />
 
 ## Contact Us Page
 
 - Choose your favourite styling approach and practice!
+
+<br />
+<br />
+<br />
+---
 
 # Getting Started with Create React App
 

@@ -7,7 +7,7 @@ import About from "./components/About/About";
 function App() {
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}>Styling React</h1>
+      <h1>Styling React</h1>
       <Router>
         <Navigation />
         <Switch>
