@@ -13,7 +13,6 @@ const Navigation = () => {
       <li>
         <NavLink to="/contact-us">Contact us</NavLink>
       </li>
-      <a href="https://www.google.com">Google</a>
     </ul>
   );
 };
