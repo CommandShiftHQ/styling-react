@@ -1,20 +1,33 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import styled from "styled-components"
+
+const StyledUl = styled.ul`
+  background-color: pink;
+`;
+
+const StyledNavLink = styled(NavLink)`
+  background-color: darkblue;
+  /* margin: 10px;
+  color:${props => props.color}; */
+
+  padding-right: 10px;
+    border-right: 5px solid ${props => props.color};
+`;
 
 const Navigation = () => {
   return (
-    <ul>
+    <StyledUl>
       <li>
-        <NavLink to="/about">About</NavLink>
+        <StyledNavLink to="/about" color="teal">About</StyledNavLink>
       </li>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <StyledNavLink to="/" color="gold">Home</StyledNavLink>
       </li>
       <li>
-        <NavLink to="/contact-us">Contact us</NavLink>
+        <StyledNavLink to="/contact-us" color="maroon">Contact us</StyledNavLink>
       </li>
-      <a href="https://www.google.com">Google</a>
-    </ul>
+    </StyledUl>
   );
 };
 

@@ -1,0 +1,13 @@
+.heading {
+    border-bottom: 5px solid orange;
+    width: max-content;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    background-color: orange
+}
+
+.logo {
+    max-height: 200px;
+}

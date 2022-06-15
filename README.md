@@ -31,7 +31,7 @@ In the Home folder
   - the keys you create within the Homestyles object should match the name of the element you'd like to style in `Home.js`
   - and the values should be style objects that use the same syntax for inline styles (take a look at the slides for reference)
 - import this file into `Home.js`
-- use object notation to add the inline styles from the imported file to the relevant elements
+- use js object dot notation to add the inline styles from the imported file to the relevant elements
 
 <br />
 
@@ -53,10 +53,6 @@ Remember to use the lecture slides for reference
 - Create some style declarations for the About component
 - Import your styles into the About component
 - Apply styling to the relevant jsx elements for the styles you've created
-
-Extension:
-
-- Create a media query and/or css transition for the react logo
 
 <br />
 
