@@ -6,15 +6,10 @@ In the `index.css`
 
 - Change the default colour for all link elements
 - Use a pseudo class to change the default visited colour for all links
-- Create a "css reset" that will:
+- Create a 'css reset' that will:
   - set the default margin to 0 for all elements
   - set the default padding to 0 for all elements
   - and set the [box-sizing](https://www.w3schools.com/css/css3_box-sizing.asp) for all elements to "border-box"
-
-Extension:
-
-- Import a font from [google fonts](https://fonts.google.com/)
-- Apply this font to your site
 
 <br />
 
@@ -28,10 +23,10 @@ In the Home folder
 
 - Create a javascript file called `HomeStyles.js`
 - In this file create and export an object called HomeStyles
-  - the keys you create within the Homestyles object should match the name of the element you'd like to style in `Home.js`
-  - and the values should be style objects that use the same syntax for inline styles (take a look at the slides for reference)
+  - name the keys of this object should after the element you'd like to style in `Home.js`
+  - and the values should be inline style objects (take a look at the slides for reference)
 - import this file into `Home.js`
-- use object notation to add the inline styles from the imported file to the relevant elements
+- apply your inline styles to the relevant jsx elements
 
 <br />
 

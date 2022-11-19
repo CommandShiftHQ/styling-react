@@ -5,8 +5,7 @@ const Home = () => {
     <div>
       <h2>Home</h2>
       <p>
-        Today we will be learning about the different styling techniques in
-        react
+        Today we will be practising different the following styling techniques in React:
       </p>
       <ul>
         <li>CSS stylesheets</li>

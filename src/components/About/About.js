@@ -6,8 +6,7 @@ const About = () => {
     <div>
       <h2 className="heading">About</h2>
       <div>
-        <p>Welcome to our about page</p>
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" width='200px' />
       </div>
     </div>
   );
