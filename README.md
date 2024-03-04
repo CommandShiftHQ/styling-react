@@ -1,12 +1,14 @@
 # Styling React
 
+** Remember to use the lecture slides for reference **
+
 ## CSS stylesheets
 
 In the `index.css`
 
-- Change the default colour for all link elements
-- Use a pseudo class to change the default visited colour for all links
-- Create a 'css reset' that will:
+- Change the default colour for all [link](https://www.w3schools.com/html/html_links.asp) elements
+- Use a pseudo class to change the default [visited](https://www.w3schools.com/cssref/sel_visited.php) colour for all links
+- Using [the CSS universal selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors) create a 'css reset' that will:
   - set the default margin to 0 for all elements
   - set the default padding to 0 for all elements
   - and set the [box-sizing](https://www.w3schools.com/css/css3_box-sizing.asp) for all elements to "border-box"
@@ -23,7 +25,7 @@ In the Home folder
 
 - Create a javascript file called `HomeStyles.js`
 - In this file create and export an object called HomeStyles
-  - name the keys of this object should after the element you'd like to style in `Home.js`
+  - name the keys of this object after the element you'd like to style in `Home.js` 
   - and the values should be inline style objects (take a look at the slides for reference)
 - import this file into `Home.js`
 - apply your inline styles to the relevant jsx elements
@@ -36,13 +38,11 @@ In the Home folder
 - Import styled components into your Navigation.js file: `import styled from 'styled-components';`
 - In the navigation component [use styled components](https://styled-components.com/docs/basics#getting-started) to
   - Style the container (i.e. `<ul>` element)
-  - Style each link in your nav differently (how you can [extend styles](https://styled-components.com/docs/basics#extending-styles) may prove useful here)
+  - Style each link in your nav differently (how you can go about [extending styles](https://styled-components.com/docs/basics#extending-styles) may prove useful here)
 
 <br />
 
 ## CSS Modules
-
-Remember to use the lecture slides for reference
 
 - Create an about css module in the About folder
 - Create some style declarations for the About component
